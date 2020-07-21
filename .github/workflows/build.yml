@@ -11,8 +11,8 @@ jobs:
         name: Prepare
         id: prepare
         run: |
-          DOCKER_USERNAME=crazymax
-          DOCKER_IMAGE=crazymax/7zip
+          DOCKER_USERNAME=jcansdale
+          DOCKER_IMAGE=jcansdale/7zip
           DOCKER_PLATFORMS=linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/386,linux/ppc64le,linux/s390x
           VERSION=latest
 
